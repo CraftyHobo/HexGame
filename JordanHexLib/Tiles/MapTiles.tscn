@@ -1,0 +1,43 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Tiles/gimp_hex.png" type="Texture" id=1]
+
+[node name="MapTiles" type="Node"]
+
+[node name="Red" type="Sprite" parent="." index="0"]
+
+modulate = Color( 0.894531, 0.0594025, 0.0594025, 1 )
+position = Vector2( 70.6511, 51.4915 )
+texture = ExtResource( 1 )
+_sections_unfolded = [ "Transform", "Visibility" ]
+
+[node name="Blue" type="Sprite" parent="." index="1"]
+
+modulate = Color( 0.134506, 0.641468, 0.839844, 1 )
+position = Vector2( 144.895, 50.8927 )
+texture = ExtResource( 1 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="Yellow" type="Sprite" parent="." index="2"]
+
+modulate = Color( 0.898438, 0.813222, 0.119324, 1 )
+position = Vector2( 222.132, 50.8927 )
+texture = ExtResource( 1 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="Green" type="Sprite" parent="." index="3"]
+
+modulate = Color( 0.19175, 0.914063, 0.149963, 1 )
+position = Vector2( 299.968, 50.8927 )
+texture = ExtResource( 1 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="Grey" type="Sprite" parent="." index="4"]
+
+modulate = Color( 0.494118, 0.494118, 0.494118, 1 )
+show_behind_parent = true
+position = Vector2( 383.192, 50.8927 )
+texture = ExtResource( 1 )
+_sections_unfolded = [ "Visibility" ]
+
+
